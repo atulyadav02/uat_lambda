@@ -10,6 +10,7 @@ def handler(event, context):
  for bucket in s3.buckets.all():
   bucketlist.append(bucket.name)
 #hello I am updating this code for a purpose
+#sdjhfsdjkfjg[eraoifsjzkjio[uwgefsdnlczkxmupiryewuoipo
  return {
   "statusCode": 200,
   "body": bucketlist
