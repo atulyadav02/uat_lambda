@@ -9,7 +9,7 @@ def handler(event, context):
 
  for bucket in s3.buckets.all():
   bucketlist.append(bucket.name)
-#hello I am updating this code for a purpose vishwas 
+#hello 
 
  return {
   "statusCode": 200,
